@@ -7,52 +7,86 @@
     <title>Siberian Myst Games</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #1e1e1e;
-            color: #f5f5f5;
+            font-family: 'Arial', sans-serif;
+            background-color: #1a3d2f; /* Dark swamp green */
+            color: #d2f8d2; /* Light swamp green */
             margin: 0;
             padding: 0;
         }
+
         header {
             text-align: center;
-            padding: 50px 0;
-            background: #0b3d91;
+            padding: 60px 0;
+            background: #143726; /* Darker swamp green */
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
         }
+
         header h1 {
-            font-size: 2.5em;
+            font-size: 3em;
+            color: #a2f2a2; /* Pale green highlight */
+            text-shadow: 2px 2px #083119;
+            letter-spacing: 3px;
         }
+
+        header p {
+            font-size: 1.2em;
+            color: #d2f8d2;
+        }
+
         section {
-            padding: 20px;
+            padding: 40px 20px;
             max-width: 1200px;
             margin: 0 auto;
         }
+
         h2 {
-            color: #ff6600;
+            color: #a2f2a2;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #74b48d;
+            display: inline-block;
+            padding-bottom: 10px;
         }
+
         .games {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
         }
+
         .game {
             margin: 20px;
-            padding: 15px;
-            border: 1px solid #ff6600;
-            border-radius: 10px;
+            padding: 20px;
             width: 300px;
-            background-color: #282828;
+            background-color: #244e38; /* Swampy muted green */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
         }
+
+        .game:hover {
+            transform: scale(1.05);
+        }
+
+        .game h3 {
+            color: #a2f2a2;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
-            background-color: #111;
+            background-color: #102819;
+            color: #74b48d; /* Muted green */
         }
+
         a {
-            color: #ff6600;
+            color: #a2f2a2;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
+            color: #c2ffcc;
         }
     </style>
 </head>
@@ -60,12 +94,12 @@
 
 <header>
     <h1>Siberian Myst Games</h1>
-    <p>Crafting Immersive Mobile Adventures in Unity</p>
+    <p>Crafting Enigmatic Adventures in the Shadows of Unity</p>
 </header>
 
 <section>
     <h2>About Us</h2>
-    <p>At <strong>Siberian Myst Games</strong>, we specialize in bringing thrilling and imaginative worlds to life on mobile platforms. Our team of passionate developers pushes the limits of mobile gaming using the Unity engine. Whether it's epic quests or challenging puzzles, we create games that captivate players.</p>
+    <p>At <strong>Siberian Myst Games</strong>, we channel the mystery and allure of untamed wilderness into captivating mobile games. We are passionate about weaving immersive narratives, blending high-end visuals with cutting-edge gameplay mechanics to transport players into fantastical worlds.</p>
 </section>
 
 <section>
@@ -73,44 +107,39 @@
     <div class="games">
         <div class="game">
             <h3>Frozen Quest</h3>
-            <p>Step into the icy world of Frozen Quest and solve mysteries to reclaim a lost kingdom.</p>
+            <p>Unravel an ancient curse in a world of frost and mystery. Navigate treacherous paths and face mythical creatures to uncover hidden secrets.</p>
         </div>
         <div class="game">
             <h3>Mystic Run</h3>
-            <p>Experience a high-speed adventure where you dodge obstacles and collect mystical artifacts.</p>
+            <p>Dash through enchanted lands, collecting rare artifacts while avoiding magical traps in this fast-paced adventure.</p>
         </div>
         <div class="game">
             <h3>Echoes of the Forest</h3>
-            <p>Dive into a magical forest filled with puzzles, hidden secrets, and dynamic characters in this adventure RPG.</p>
+            <p>Journey through a sentient forest where every choice you make alters your fate. Solve puzzles and form alliances in this deep narrative-driven RPG.</p>
         </div>
     </div>
-    <p><a href="#">View All Games</a></p>
+    <p><a href="#">Explore All Games</a></p>
 </section>
 
 <section>
     <h2>Our Process</h2>
     <ul>
-        <li><strong>Concept & Design:</strong> Building rich narratives and engaging gameplay.</li>
-        <li><strong>Prototype Development:</strong> Testing and iterating using Unity.</li>
-        <li><strong>Art & Animation:</strong> Creating visually stunning worlds.</li>
-        <li><strong>Playtesting:</strong> Ensuring balance and immersion.</li>
-        <li><strong>Launch & Support:</strong> Releasing polished games and providing updates.</li>
+        <li><strong>Concept & Design:</strong> Creating rich and layered experiences.</li>
+        <li><strong>Prototype Development:</strong> Fast iteration using Unity.</li>
+        <li><strong>Art & Animation:</strong> From concept art to life-like animations.</li>
+        <li><strong>Playtesting:</strong> Involving players to ensure the best experience.</li>
+        <li><strong>Launch & Support:</strong> Delivering polished, ready-for-market games with ongoing support.</li>
     </ul>
 </section>
 
 <section>
-    <h2>Work With Us</h2>
-    <p>Looking for a partner to bring your mobile game idea to life? We're ready to collaborate and push the boundaries of mobile gaming. <a href="#">Get in touch</a>.</p>
-</section>
-
-<section>
-    <h2>Follow Us</h2>
-    <p>Stay updated with our latest releases:</p>
-    <p><a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+    <h2>Contact Us</h2>
+    <p>Are you ready to embark on a journey with us? Whether you're a player, developer, or business partner, let's connect! <a href="#">Reach out</a> today.</p>
 </section>
 
 <footer>
-    <p>&copy; 2024 Siberian Myst Games. All rights reserved.</p>
+    <p>&copy; 2024 Siberian Myst Games. Designed in the heart of the wilderness.</p>
+    <p><a href="#">Instagram</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
 </footer>
 
 </body>
